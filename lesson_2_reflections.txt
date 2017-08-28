@@ -1,0 +1,20 @@
+What happens when you initialize a repository? Why do you need to do it?
+	When we initialize a repository, a file named .git gets created showing the system that it is a repository. It has 0 commits. the command is 'git init' and 'git status' for viewing the status of h=the repository. to view hidden files, the command is 'ls -a'.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+	Staging area creates an intermediary step for including many files in one commit. The command is 'git add'.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
