@@ -1,0 +1,13 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	As the bug was only introduced in one file, we can easily sort the bug out by comparing the two files
+
+
+How could having easy access to the entire history of a file make you a efficient programmer in the long term?
+	Different versions states that the given file has gone through many changes and updates. By having easy access to the entire history we can keep track of the updates and also can trace the bugs introduced while maikg version.
+
+How might using version control make you more confident to make changes that could break something?
+if we made some changes that have introduced some error using version control, we can restore to previous versions by using 'git checkout' .
+
+
+
+	
