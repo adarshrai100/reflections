@@ -5,16 +5,20 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 	Staging area creates an intermediary step for including many files in one commit. The command is 'git add'.
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+How can you use the staging area to make sure you have one commit per logical change?
+	Staging area helps us by providing a stage like middle ground to add files that have same logical changes to commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	When we are trying to experiment new features in the file or game, it would be helpful if we make a brach and set aside the master branch which is bug free.Command is 'git branch branch_name'.
 
 How do the diagrams help you visualize the branch structure?
+	The diagrams show an overall view of the whole version changes. 
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	The result of merging two branches are a single master branch using 'git merge branch1 branch2'. And to view a parent of a commit, use 'git show commitid'.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+	Git automatic merging is pretty good in terms of time saving but can introduce conflicts. We have to resolve those conflicts and then merge it
